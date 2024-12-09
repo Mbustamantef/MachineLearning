@@ -19,7 +19,7 @@ def generate_flowchart():
     flowchart.node("F", "Comparación en Streamlit")
 
     # Crear las conexiones
-    flowchart.edge("A", "B", label="Datos cargados")
+    flowchart.edge("A", "B", label="Datos cargados y ejecutados")
     flowchart.edge("B", "C", label="Datos preprocesados")
     flowchart.edge("C", "D", label="Modelo entrenado")
     flowchart.edge("D", "E1", label="Métricas calculadas")
